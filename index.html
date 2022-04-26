@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="description" content="Etch a sketch">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Etch a Sketch</title>
+</head>
+<body>
+    <h1 class="title">Etch a Sketch</h1>
+    <div class="options">
+        <div>
+            <input value="#0ea5e9" type="color" name="" id="color-picker">
+        </div>
+
+        <div>
+            <button id="refresh-button">
+                <span class="material-symbols-outlined">
+                    refresh
+                </span>
+            </button>
+        </div>
+    </div>
+
+    <div class="canvas-container">
+        <div id="canvas">
+
+        </div>
+    </div>
+
+    <script defer type="module" src="./scripts/index.js"></script>
+</body>
+</html>
